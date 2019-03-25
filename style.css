@@ -1,23 +1,40 @@
 body{
   margin: 0;
+  padding:0 40px;
 
 }
 .navigation {
-  background-color: blue;
+  background-color: white;
   height: 50px;
 }
 .videos{
-  background-color: orange;
-  flex-grow: 4;
+  flex-grow: 8;
+  padding:20px;
   /*height: 400px;
   width: 60%; */
 }
 .sidebar{
-  background: yellow;
+  
  /* height: 500px;*/
- flex-grow: 1;
+ flex-grow: 4;
+ 
 }
 .main{
   display: flex;
   flex-wrap: wrap;
+}
+#links{
+	padding:40;
+	width:80%;
+}
+#form-container{
+	position:absolute;
+	top:20px;
+	
+	padding-left:400px;
+}
+.sidebar >img{
+	width:100%
+	
+	
 }
