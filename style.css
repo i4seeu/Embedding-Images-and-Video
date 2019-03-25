@@ -7,6 +7,11 @@ body{
   background-color: white;
   height: 50px;
 }
+#search{
+	width: 300px;
+	height:40px;
+	border-radius: 1px;
+}
 .videos{
   flex-grow: 8;
   padding:20px;
