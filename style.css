@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+
+}
+.navigation {
+  background-color: blue;
+  height: 50px;
+}
+.videos{
+  background-color: orange;
+  flex-grow: 4;
+  /*height: 400px;
+  width: 60%; */
+}
+.sidebar{
+  background: yellow;
+ /* height: 500px;*/
+ flex-grow: 1;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+}
