@@ -134,6 +134,7 @@
 	font-weight: 500;
 	text-transform: uppercase;
   }
+}
 
 .main{
 	position: relative;
@@ -145,16 +146,43 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  
   flex: 70%;
   padding: 30px;
 
 }
 .sidebar{
   flex: 30%;
-  background: green;
+  padding-top:30px;
 
 }
+#head{
+	padding-bottom: 10px;
+}
+.items{
+	display:flex;
+	flex-direction: column
+}
+.links{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+
+}
+.image{
+	flex:50%;
+}
+.metadata{
+	flex:30%;
+	position:relative;
+	left:2px;
+	top:2px;
+}
+.image img{
+	height:200px;
+	width:100%;
+}
+
 .videos{
   margin-top: 30px;
 }
@@ -164,12 +192,13 @@ iframe{
 .description{
   background-color: green;
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   text-align: center;
 }
 .profile{
   color: white;
+  text-align: center;
 }
 .name{
   display: inline;
