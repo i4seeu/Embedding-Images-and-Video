@@ -7,7 +7,7 @@ body{
   background-color: white;
   height: 50px;
 }
-#search{
+.search{
 	width: 300px;
 	height:40px;
 	border-radius: 1px;
@@ -28,11 +28,11 @@ body{
   display: flex;
   flex-wrap: wrap;
 }
-#links{
+.links{
 	padding:40;
 	width:80%;
 }
-#form-container{
+.form-container{
 	position:absolute;
 	top:20px;
 
@@ -41,7 +41,7 @@ body{
 .sidebar img{
 	width:100%
 }
-#profile{
+.profile{
   color: white;
 
 }
@@ -55,4 +55,7 @@ body{
 .name{
   position: absolute;
   padding-left: 30px;
+}
+iframe{
+  border="0";
 }
