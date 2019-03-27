@@ -4,7 +4,7 @@ The aim is to embed youtube videos on a page
 
 ## Credit
  rkudjie@gmail.com 
-  && malongo noordeen
+  && Noordeen Malango
 
 ## License 
 MIT
